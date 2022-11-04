@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.title{
+    margin: 2%;
+    text-align: center;
+    
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    height: 70px;
+}
+
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 2%;
+    text-decoration: none;
+    font-weight: bold;
+    /* font-size: large; */
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 2%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+    color: white;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 2%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color: #2ed573;
+}
+
+.error{
+    color: red;
+}
+
+.card-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+/*============ NAV MENU ======== */
+
+.menu{
+    border-bottom: 1px solid grey;
+    
+}
+
+.menu ul{
+    list-style-type: none;
+
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+
+}
+
+.menu ul li a{
+    font-weight:bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/* ======== MAIN CONTENT ======= */
+
+.main{
+    background-color: #dfe4ea;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.col-4{
+    
+    align-items: center;
+    justify-content: space-around;
+    width: 275px;
+    background-color:white;
+    margin: 1%;
+    padding: 2%;
+    
+
+}
+
+
+
+/*======= FOOTER ===== */
+
+footer {
+    background-color:#ff4757;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ======== Admin Login ========= */
+
+.login{
+    border: .5px solid black;
+    background-color: #dfe4ea;
+    width:33%;
+    margin: 5% auto;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.login_form input{
+    margin: 3%;
+    padding: 5%;
+}
